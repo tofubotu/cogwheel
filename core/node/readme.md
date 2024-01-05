@@ -68,3 +68,20 @@ current:2709071919488 next:2709071918864
 current:2709071918864 next:2709071918912
 Completed 5 circle(s)
 ```
+```
+a1-0001
+b1-0002
+b2-0003
+b3-0004
+b4-0005
+b5-0006
+a1-0001 -> b4-0005 (Strength: 1.0)
+a1-0001 -> b2-0003 (Strength: 0.9)
+a1-0001 -> b1-0002 (Strength: 0.8)
+a1-0001 -> b5-0006 (Strength: 0.714)
+a1-0001 -> b3-0004 (Strength: 0.4)
+b2-0003 -> b4-0005 (Strength: 1.0)
+b2-0003 -> DEAD (Strength: 0.9)
+b1-0002 -> b4-0005 (Strength: 1.0)
+b1-0002 -> a1-0001 (Strength: 0.8)
+```
