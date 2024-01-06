@@ -1,6 +1,4 @@
 import sys
-#sys.path.append("../../")
-#from config import logger
 class Linkable:
     _id_counter = 1
 
