@@ -1,6 +1,6 @@
 set BUILD=c:\temp\build
 set PACKAGE=cogwheel-0.1-py3-none-any.whl
-set SRC=c:\Dropbox\SYS\Cogwheel
+set SRC=T:\Projects\Cogwheel
 rmdir /s /q %BUILD%
 
 mkdir %BUILD%
