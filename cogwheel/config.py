@@ -4,7 +4,7 @@ import sys
 def getLogger(name='Generic', file="core.log"):
     format='%(asctime)s %(name)s %(levelname)s: %(message)s'
     formatter = logging.Formatter(format)
-    fh = logging.FileHandler(file)
+    fh = logging.FileHandler(file, 'w', 'utf-8')
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(formatter)
     ch = logging.StreamHandler(sys.stdout)
